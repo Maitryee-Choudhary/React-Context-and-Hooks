@@ -2,7 +2,6 @@ import React from 'react';
 import { ThemeContext } from '../context/ThemeContext';
 
 
-
 const Navbar = () => {
 
     const {isLightTheme, light, dark} = React.useContext(ThemeContext);
